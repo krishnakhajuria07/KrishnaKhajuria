@@ -3,7 +3,9 @@
 # Ask Doubt on telegram @KingVJ01
 
 # Clone Code Credit : YT - @Tech_VJ / TG - @VJ_Bots / GitHub - @VJBots
-
+from dotenv import load_dotenv
+load_dotenv()
+import os
 import sys, glob, importlib, logging, logging.config, pytz, asyncio
 from pathlib import Path
 
